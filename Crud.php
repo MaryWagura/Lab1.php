@@ -12,6 +12,7 @@ interface Crud
 
 	public function validateForm();
 	public function createFormErrorsSessions();
+	public function isUserExist();
 
 }
 ?>
